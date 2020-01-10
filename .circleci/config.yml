@@ -39,4 +39,6 @@ jobs:
 
       # run tests!
       - run: mvn -B -DskipTests clean package
-      - run: mvn mvn test
+      - run: mvn test
+      - run: pwd
+      - run: ls
