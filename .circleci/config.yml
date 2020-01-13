@@ -42,3 +42,4 @@ jobs:
       - run: mvn test
       - run: pwd
       - run: ls
+      - run: mvn dependency-check:check
